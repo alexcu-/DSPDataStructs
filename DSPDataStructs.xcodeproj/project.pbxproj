@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FAA208EA194B24BE008B6FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA208E9194B24BE008B6FC9 /* Foundation.framework */; };
-		FAA208ED194B24BE008B6FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA208EC194B24BE008B6FC9 /* main.m */; };
 		FAA208F1194B24BE008B6FC9 /* DSPDataStructs.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAA208F0194B24BE008B6FC9 /* DSPDataStructs.1 */; };
+		FAA20901194B24DF008B6FC9 /* AXNaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA208F8194B24DF008B6FC9 /* AXNaryTree.m */; };
+		FAA20902194B24DF008B6FC9 /* AXStaticQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA208FA194B24DF008B6FC9 /* AXStaticQueue.m */; };
+		FAA20903194B24DF008B6FC9 /* AXTreeVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA208FC194B24DF008B6FC9 /* AXTreeVisitor.m */; };
+		FAA20904194B24DF008B6FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA20900194B24DF008B6FC9 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +31,18 @@
 /* Begin PBXFileReference section */
 		FAA208E6194B24BE008B6FC9 /* DSPDataStructs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSPDataStructs; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA208E9194B24BE008B6FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FAA208EC194B24BE008B6FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAA208EF194B24BE008B6FC9 /* DSPDataStructs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSPDataStructs-Prefix.pch"; sourceTree = "<group>"; };
 		FAA208F0194B24BE008B6FC9 /* DSPDataStructs.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DSPDataStructs.1; sourceTree = "<group>"; };
+		FAA208F7194B24DF008B6FC9 /* AXNaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXNaryTree.h; sourceTree = "<group>"; };
+		FAA208F8194B24DF008B6FC9 /* AXNaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXNaryTree.m; sourceTree = "<group>"; };
+		FAA208F9194B24DF008B6FC9 /* AXStaticQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStaticQueue.h; sourceTree = "<group>"; };
+		FAA208FA194B24DF008B6FC9 /* AXStaticQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStaticQueue.m; sourceTree = "<group>"; };
+		FAA208FB194B24DF008B6FC9 /* AXTreeVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTreeVisitor.h; sourceTree = "<group>"; };
+		FAA208FC194B24DF008B6FC9 /* AXTreeVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTreeVisitor.m; sourceTree = "<group>"; };
+		FAA208FD194B24DF008B6FC9 /* DSPDataStructs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DSPDataStructs-Prefix.pch"; sourceTree = "<group>"; };
+		FAA208FE194B24DF008B6FC9 /* DSPDataStructs.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = DSPDataStructs.1; sourceTree = "<group>"; };
+		FAA208FF194B24DF008B6FC9 /* DSPDataStructures-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DSPDataStructures-Prefix.pch"; sourceTree = "<group>"; };
+		FAA20900194B24DF008B6FC9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +85,16 @@
 		FAA208EB194B24BE008B6FC9 /* DSPDataStructs */ = {
 			isa = PBXGroup;
 			children = (
-				FAA208EC194B24BE008B6FC9 /* main.m */,
+				FAA208F7194B24DF008B6FC9 /* AXNaryTree.h */,
+				FAA208F8194B24DF008B6FC9 /* AXNaryTree.m */,
+				FAA208F9194B24DF008B6FC9 /* AXStaticQueue.h */,
+				FAA208FA194B24DF008B6FC9 /* AXStaticQueue.m */,
+				FAA208FB194B24DF008B6FC9 /* AXTreeVisitor.h */,
+				FAA208FC194B24DF008B6FC9 /* AXTreeVisitor.m */,
+				FAA208FD194B24DF008B6FC9 /* DSPDataStructs-Prefix.pch */,
+				FAA208FE194B24DF008B6FC9 /* DSPDataStructs.1 */,
+				FAA208FF194B24DF008B6FC9 /* DSPDataStructures-Prefix.pch */,
+				FAA20900194B24DF008B6FC9 /* main.m */,
 				FAA208F0194B24BE008B6FC9 /* DSPDataStructs.1 */,
 				FAA208EE194B24BE008B6FC9 /* Supporting Files */,
 			);
@@ -139,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA208ED194B24BE008B6FC9 /* main.m in Sources */,
+				FAA20902194B24DF008B6FC9 /* AXStaticQueue.m in Sources */,
+				FAA20901194B24DF008B6FC9 /* AXNaryTree.m in Sources */,
+				FAA20904194B24DF008B6FC9 /* main.m in Sources */,
+				FAA20903194B24DF008B6FC9 /* AXTreeVisitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
